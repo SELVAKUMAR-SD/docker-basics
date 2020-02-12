@@ -1,0 +1,10 @@
+docker run -it image:tag => run docker and create a container
+
+docker run -it -d -p new_port:EXPOSE_PORT image:tag =>
+                                run docker and create a container
+
+docker images ps => list images
+
+docker build -t flaskapp:latest . => build a docker image
+
+docker run -it flaskapp /bin/sh => To check requirements installed
